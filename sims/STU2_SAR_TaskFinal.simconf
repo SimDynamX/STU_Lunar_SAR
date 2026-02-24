@@ -7,7 +7,7 @@
     "Description": ""
   },
   "IncludeSims": [
-    "Local/Repos/STU_Competition2/sims/STU_BaseSimFinal.json"
+    "Local/Repos/STU_Competition2/sims/STU_BaseSimFinal.simconf"
   ],
   "SystemManager": {
     "Systems": [
@@ -193,16 +193,6 @@
             1.0
           ]
         }
-      },
-      {
-        "Nametag": "SimpleWheels",
-        "Source": "CoStar/SimpleWheels/bin/SimpleWheels",
-        "Type": "Normal",
-        "FreqType":"IRL",
-        "Active": true,
-        "Frequency": 60.0,
-        "Inst_Parameters": {
-        }
       }
     ],
     "Taskflows": []
@@ -252,7 +242,7 @@
           "Systems": [ "SnapAssetToPlanet", "ParamWrangler" ]
         },
         "#FromTemplate": {
-          "Source_Path": "SharedData/SCAssets/Basic/DummyHuman.json",
+          "Source_Path": "SharedData/SCAssets/Basic/DummyHuman.enconf",
           "ParamOverrides": {
             "Location": [ "doubleV3", -12825.0, -12611.0, -1739203.0 ],
             "Rotation": [ "doubleV4", 0.9848078, 0, 0, 0.1736482 ],
@@ -287,7 +277,7 @@
           "Systems": [ "SnapAssetToPlanet", "ParamWrangler" ]
         },
         "#FromTemplate": {
-          "Source_Path": "SharedData/SCAssets/Basic/DummyHuman.json",
+          "Source_Path": "SharedData/SCAssets/Basic/DummyHuman.enconf",
           "ParamOverrides": {
             "Location": [ "doubleV3", -12827.0, -12613.0, -1739203.0 ],
             "Rotation": [ "doubleV4", 0.9848078, 0, 0, 0.1736482 ],
@@ -322,7 +312,7 @@
           "Systems": [ "SimpleWheels", "ParamWrangler", "SurfaceMovement" ]
         },
         "#FromTemplate": {
-          "Source_Path": "SharedData/SCAssets/LoadableMeshes/LTV/LTV_Body.json",
+          "Source_Path": "SharedData/SCAssets/LoadableMeshes/LTV/LTV_Body.enconf",
           "ParamOverrides": {
             "Location": [ "doubleV3", -12815.0, -12611.0, -1739202.0 ],
             "Rotation": [ "doubleV4", 0.9848078, 0, 0, 0.1736482 ],
@@ -380,7 +370,7 @@
           "Systems": []
         },
         "#FromTemplate": {
-          "Source_Path": "SharedData/SCAssets/LoadableMeshes/LTV/LTV_Wheel_Left.json",
+          "Source_Path": "SharedData/SCAssets/LoadableMeshes/LTV/LTV_Wheel_Left.enconf",
           "ParamOverrides": {
             "Dynamics": {
               "ResidentFrame": [ "EntityRef", "LTV1" ]
@@ -401,7 +391,7 @@
           "Systems": []
         },
         "#FromTemplate": {
-          "Source_Path": "SharedData/SCAssets/LoadableMeshes/LTV/LTV_Wheel_Left.json",
+          "Source_Path": "SharedData/SCAssets/LoadableMeshes/LTV/LTV_Wheel_Left.enconf",
           "ParamOverrides": {
             "Dynamics": {
               "ResidentFrame": [ "EntityRef", "LTV1" ]
@@ -419,7 +409,7 @@
           "Systems": []
         },
         "#FromTemplate": {
-          "Source_Path": "SharedData/SCAssets/LoadableMeshes/LTV/LTV_Wheel_Right.json",
+          "Source_Path": "SharedData/SCAssets/LoadableMeshes/LTV/LTV_Wheel_Right.enconf",
           "ParamOverrides": {
             "Dynamics": {
               "ResidentFrame": [ "EntityRef", "LTV1" ]
@@ -437,7 +427,7 @@
           "Systems": []
         },
         "#FromTemplate": {
-          "Source_Path": "SharedData/SCAssets/LoadableMeshes/LTV/LTV_Wheel_Right.json",
+          "Source_Path": "SharedData/SCAssets/LoadableMeshes/LTV/LTV_Wheel_Right.enconf",
           "ParamOverrides": {
             "Dynamics": {
               "ResidentFrame": [ "EntityRef", "LTV1" ]
@@ -455,7 +445,7 @@
           "Systems": []
         },
         "#FromTemplate": {
-          "Source_Path": "SharedData/SCAssets/Basic/ScaledHoloMarker.json",
+          "Source_Path": "SharedData/SCAssets/Basic/ScaledHoloMarker.enconf",
           "ParamOverrides": {
             "Dynamics": { "ResidentFrame": [ "EntityRef", "LTV1" ] },
             "ObjectHeight": 3.0,
@@ -472,7 +462,7 @@
           "Systems": [ "SimpleWheels", "ParamWrangler", "SurfaceMovement" ]
         },
         "#FromTemplate": {
-          "Source_Path": "SharedData/SCAssets/LoadableMeshes/LTV/LTV_Body.json",
+          "Source_Path": "SharedData/SCAssets/LoadableMeshes/LTV/LTV_Body.enconf",
           "ParamOverrides": {
             "Location": [ "doubleV3", -12773.0, -12558.0, -1739221.0  ],
             "Rotation": [ "doubleV4", 0.9848078, 0, 0, 0.1736482 ],
@@ -530,7 +520,7 @@
           "Systems": []
         },
         "#FromTemplate": {
-          "Source_Path": "SharedData/SCAssets/LoadableMeshes/LTV/LTV_Wheel_Left.json",
+          "Source_Path": "SharedData/SCAssets/LoadableMeshes/LTV/LTV_Wheel_Left.enconf",
           "ParamOverrides": {
             "Dynamics": {
               "ResidentFrame": [ "EntityRef", "LTV2" ]
@@ -548,7 +538,7 @@
           "Systems": []
         },
         "#FromTemplate": {
-          "Source_Path": "SharedData/SCAssets/LoadableMeshes/LTV/LTV_Wheel_Left.json",
+          "Source_Path": "SharedData/SCAssets/LoadableMeshes/LTV/LTV_Wheel_Left.enconf",
           "ParamOverrides": {
             "Dynamics": {
               "ResidentFrame": [ "EntityRef", "LTV2" ]
@@ -566,7 +556,7 @@
           "Systems": []
         },
         "#FromTemplate": {
-          "Source_Path": "SharedData/SCAssets/LoadableMeshes/LTV/LTV_Wheel_Right.json",
+          "Source_Path": "SharedData/SCAssets/LoadableMeshes/LTV/LTV_Wheel_Right.enconf",
           "ParamOverrides": {
             "Dynamics": {
               "ResidentFrame": [ "EntityRef", "LTV2" ]
@@ -584,7 +574,7 @@
           "Systems": []
         },
         "#FromTemplate": {
-          "Source_Path": "SharedData/SCAssets/LoadableMeshes/LTV/LTV_Wheel_Right.json",
+          "Source_Path": "SharedData/SCAssets/LoadableMeshes/LTV/LTV_Wheel_Right.enconf",
           "ParamOverrides": {
             "Dynamics": {
               "ResidentFrame": [ "EntityRef", "LTV2" ]
@@ -602,7 +592,7 @@
           "Systems": []
         },
         "#FromTemplate": {
-          "Source_Path": "SharedData/SCAssets/Basic/ScaledHoloMarker.json",
+          "Source_Path": "SharedData/SCAssets/Basic/ScaledHoloMarker.enconf",
           "ParamOverrides": {
             "Dynamics": { "ResidentFrame": [ "EntityRef", "LTV2" ] },
             "ObjectHeight": 3.0,
@@ -619,7 +609,7 @@
           "Systems": [ "ParamWrangler", "SurfaceMovement" ]
         },
         "#FromTemplate": {
-          "Source_Path": "SharedData/SCAssets/LandVehicles/ScoutRover.json",
+          "Source_Path": "SharedData/SCAssets/LandVehicles/ScoutRover.enconf",
           "ParamOverrides": {
             "Location": [ "doubleV3", -12865.0, -12651.0, -1739192.0 ],
             "Rotation": [ "doubleV4", 0.9848078, 0, 0, 0.1736482 ],
@@ -670,7 +660,7 @@
           "Systems": []
         },
         "#FromTemplate": {
-          "Source_Path": "SharedData/SCAssets/Basic/ScaledHoloMarker.json",
+          "Source_Path": "SharedData/SCAssets/Basic/ScaledHoloMarker.enconf",
           "ParamOverrides": {
             "Dynamics": { "ResidentFrame": [ "EntityRef", "ScoutRover1" ] },
             "ObjectHeight": 3.0,
@@ -687,7 +677,7 @@
           "Systems": [ "ParamWrangler", "SurfaceMovement" ]
         },
         "#FromTemplate": {
-          "Source_Path": "SharedData/SCAssets/LandVehicles/ScoutRover.json",
+          "Source_Path": "SharedData/SCAssets/LandVehicles/ScoutRover.enconf",
           "ParamOverrides": {
             "Location": [ "doubleV3", -12875.0, -12655.0, -1739192.0 ],
             "Rotation": [ "doubleV4", 0.9848078, 0, 0, 0.1736482 ],
@@ -738,7 +728,7 @@
           "Systems": []
         },
         "#FromTemplate": {
-          "Source_Path": "SharedData/SCAssets/Basic/ScaledHoloMarker.json",
+          "Source_Path": "SharedData/SCAssets/Basic/ScaledHoloMarker.enconf",
           "ParamOverrides": {
             "Dynamics": { "ResidentFrame": [ "EntityRef", "ScoutRover2" ] },
             "ObjectHeight": 3.0,
@@ -755,7 +745,7 @@
           "Systems": [ "ParamWrangler", "SimpleWheels", "SurfaceMovement" ]
         },
         "#FromTemplate": {
-          "Source_Path": "SharedData/SCAssets/LandVehicles/SamplingRover.json",
+          "Source_Path": "SharedData/SCAssets/LandVehicles/SamplingRover.enconf",
           "ParamOverrides": {
             "Location": [ "doubleV3", -12855.0, -12780.0, -1739192.0 ],
             "Rotation": [ "doubleV4", 0.9848078, 0, 0, 0.1736482 ],
@@ -1112,7 +1102,7 @@
           "Systems": []
         },
         "#FromTemplate": {
-          "Source_Path": "SharedData/SCAssets/Basic/ScaledHoloMarker.json",
+          "Source_Path": "SharedData/SCAssets/Basic/ScaledHoloMarker.enconf",
           "ParamOverrides": {
             "Dynamics": { "ResidentFrame": [ "EntityRef", "SamplingRover" ] },
             "ObjectHeight": 3.0,
@@ -1129,7 +1119,7 @@
           "Systems": [ "ParamWrangler", "SurfaceMovement" ]
         },
         "#FromTemplate": {
-          "Source_Path": "SharedData/SCAssets/LandVehicles/TruckRover.json",
+          "Source_Path": "SharedData/SCAssets/LandVehicles/TruckRover.enconf",
           "ParamOverrides": {
             "Location": [ "doubleV3", -12845.0, -12750.0, -1739192.0 ],
             "Rotation": [ "doubleV4", 0.9848078, 0, 0, 0.1736482 ],
@@ -1179,7 +1169,7 @@
           "Systems": []
         },
         "#FromTemplate": {
-          "Source_Path": "SharedData/SCAssets/Basic/ScaledHoloMarker.json",
+          "Source_Path": "SharedData/SCAssets/Basic/ScaledHoloMarker.enconf",
           "ParamOverrides": {
             "Dynamics": { "ResidentFrame": [ "EntityRef", "TruckRover" ] },
             "ObjectHeight": 3.0,
@@ -1196,7 +1186,7 @@
           "Systems": [ "ParamWrangler", "SurfaceMovement" ]
         },
         "#FromTemplate": {
-          "Source_Path": "SharedData/SCAssets/LandVehicles/ExcavatorRover.json",
+          "Source_Path": "SharedData/SCAssets/LandVehicles/ExcavatorRover.enconf",
           "ParamOverrides": {
             "Location": [ "doubleV3", -12870.0, -12800.0, -1739192.0 ],
             "Rotation": [ "doubleV4", 0.9848078, 0, 0, 0.1736482 ],
@@ -1246,7 +1236,7 @@
           "Systems": []
         },
         "#FromTemplate": {
-          "Source_Path": "SharedData/SCAssets/Basic/ScaledHoloMarker.json",
+          "Source_Path": "SharedData/SCAssets/Basic/ScaledHoloMarker.enconf",
           "ParamOverrides": {
             "Dynamics": { "ResidentFrame": [ "EntityRef", "ExcavatorRover" ] },
             "ObjectHeight": 3.0,
@@ -2263,7 +2253,7 @@
           "Systems": [ "SnapAssetToPlanet", "ParamWrangler" ]
         },
         "#FromTemplate": {
-          "Source_Path": "SharedData/SCAssets/Basic/EmptyEntity.json",
+          "Source_Path": "SharedData/SCAssets/Basic/EmptyEntity.enconf",
           "ParamOverrides": {
             "Location": [ "doubleV3", -12825.0, -12611.0, -1739203.0 ],
             "Rotation": [ "doubleV4", 0.9848078, 0, 0, 0.1736482 ],
@@ -2287,7 +2277,7 @@
           "Systems": [ "SnapAssetToPlanet", "ParamWrangler" ]
         },
         "#FromTemplate": {
-          "Source_Path": "SharedData/SCAssets/Basic/EmptyEntity.json",
+          "Source_Path": "SharedData/SCAssets/Basic/EmptyEntity.enconf",
           "ParamOverrides": {
             "Location": [ "doubleV3", -12825.0, -12611.0, -1739203.0 ],
             "Rotation": [ "doubleV4", 0.9848078, 0, 0, 0.1736482 ],
@@ -2314,7 +2304,7 @@
           "Systems": [ "SnapAssetToPlanet", "ParamWrangler" ]
         },
         "#FromTemplate": {
-          "Source_Path": "SharedData/SCAssets/Basic/EmptyEntity.json",
+          "Source_Path": "SharedData/SCAssets/Basic/EmptyEntity.enconf",
           "ParamOverrides": {
             "Location": [ "doubleV3", -12825.0, -12611.0, -1739203.0 ],
             "Rotation": [ "doubleV4", 0.9848078, 0, 0, 0.1736482 ],
@@ -2341,7 +2331,7 @@
           "Systems": []
         },
         "#FromTemplate": {
-          "Source_Path": "SharedData/SCAssets/Basic/EmptyEntity.json",
+          "Source_Path": "SharedData/SCAssets/Basic/EmptyEntity.enconf",
           "ParamOverrides": {
             "Name": "EVA1_Oxygen_Tank",
             "Attachment": "Fixed",
@@ -2364,7 +2354,7 @@
           "Systems": []
         },
         "#FromTemplate": {
-          "Source_Path": "SharedData/SCAssets/Basic/EmptyEntity.json",
+          "Source_Path": "SharedData/SCAssets/Basic/EmptyEntity.enconf",
           "ParamOverrides": {
             "Name": "EVA2_Oxygen_Tank",
             "Attachment": "Fixed",
@@ -2387,7 +2377,7 @@
           "Systems": []
         },
         "#FromTemplate": {
-          "Source_Path": "SharedData/SCAssets/Basic/EmptyEntity.json",
+          "Source_Path": "SharedData/SCAssets/Basic/EmptyEntity.enconf",
           "ParamOverrides": {
             "Name": "EVA1_Battery",
             "Attachment": "Fixed",
@@ -2410,7 +2400,7 @@
           "Systems": []
         },
         "#FromTemplate": {
-          "Source_Path": "SharedData/SCAssets/Basic/EmptyEntity.json",
+          "Source_Path": "SharedData/SCAssets/Basic/EmptyEntity.enconf",
           "ParamOverrides": {
             "Name": "EVA2_Battery",
             "Attachment": "Fixed",
@@ -2433,7 +2423,7 @@
           "Systems": []
         },
         "#FromTemplate": {
-          "Source_Path": "SharedData/SCAssets/Basic/EmptyEntity.json",
+          "Source_Path": "SharedData/SCAssets/Basic/EmptyEntity.enconf",
           "ParamOverrides": {
             "Owner": [ "EntityRef", "LTV1" ],
             "Name": "LTV1_Battery",
@@ -2457,7 +2447,7 @@
           "Systems": []
         },
         "#FromTemplate": {
-          "Source_Path": "SharedData/SCAssets/Basic/EmptyEntity.json",
+          "Source_Path": "SharedData/SCAssets/Basic/EmptyEntity.enconf",
           "ParamOverrides": {
             "Owner": [ "EntityRef", "LTV2" ],
             "Name": "LTV2_Battery",
@@ -2481,7 +2471,7 @@
           "Systems": []
         },
         "#FromTemplate": {
-          "Source_Path": "SharedData/SCAssets/Basic/EmptyEntity.json",
+          "Source_Path": "SharedData/SCAssets/Basic/EmptyEntity.enconf",
           "ParamOverrides": {
             "Owner": [ "EntityRef", "ScoutRover1" ],
             "Name": "ScoutRover1_Battery",
@@ -2505,7 +2495,7 @@
           "Systems": []
         },
         "#FromTemplate": {
-          "Source_Path": "SharedData/SCAssets/Basic/EmptyEntity.json",
+          "Source_Path": "SharedData/SCAssets/Basic/EmptyEntity.enconf",
           "ParamOverrides": {
             "Owner": [ "EntityRef", "ScoutRover2" ],
             "Name": "ScoutRover2_Battery",
@@ -2529,7 +2519,7 @@
           "Systems": []
         },
         "#FromTemplate": {
-          "Source_Path": "SharedData/SCAssets/Basic/EmptyEntity.json",
+          "Source_Path": "SharedData/SCAssets/Basic/EmptyEntity.enconf",
           "ParamOverrides": {
             "Owner": [ "EntityRef", "TruckRover" ],
             "Name": "TruckRover_Battery",
@@ -2553,7 +2543,7 @@
           "Systems": []
         },
         "#FromTemplate": {
-          "Source_Path": "SharedData/SCAssets/Basic/EmptyEntity.json",
+          "Source_Path": "SharedData/SCAssets/Basic/EmptyEntity.enconf",
           "ParamOverrides": {
             "Owner": [ "EntityRef", "ExcavatorRover" ],
             "Name": "ExcavatorRover_Battery",
@@ -2577,7 +2567,7 @@
           "Systems": []
         },
         "#FromTemplate": {
-          "Source_Path": "SharedData/SCAssets/Basic/EmptyEntity.json",
+          "Source_Path": "SharedData/SCAssets/Basic/EmptyEntity.enconf",
           "ParamOverrides": {
             "Owner": [ "EntityRef", "SamplingRover" ],
             "Name": "SamplingRover_Battery",
@@ -2604,7 +2594,7 @@
           "IsRoot": true,
           "Subparts": {
             "Space": {
-              "Source_Path": "SharedData/SCAssets/Basic/EmptyEntity.json",
+              "Source_Path": "SharedData/SCAssets/Basic/EmptyEntity.enconf",
               "Attachment": "Fixed",
               "Rel_Location": [ "doubleV3", 3.0, 0.0, 0.0 ],
               "Rel_Rotation": [ "doubleV4", 0.0, 0.0, 0.0, 1.0 ],

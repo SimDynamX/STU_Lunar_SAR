@@ -7,7 +7,7 @@
         "Description": "Human-in-the-loop mission timeline optimization within a complex Lunar surface architecture."
     },
     "IncludeSims": [
-        "Core/Compute_Server/packages/BaseSims/EarthMoonSun_WithInertial.json"
+        "Core/Compute_Server/packages/BaseSims/EarthMoonSun_WithInertial.simconf"
     ],
     "SystemManager": {
         "Systems": [
@@ -126,7 +126,7 @@
                     "Height": 0.0,
                     "ScaleMin": 8.0,
                     "ScaleMax": 15.0,
-                    "EntityTemplateSource": "SharedData/SCAssets/SolarSystem/GroundScatter/Rock11.json"
+                    "EntityTemplateSource": "SharedData/SCAssets/SolarSystem/GroundScatter/Rock11.enconf"
                 }
             },
             {
@@ -197,7 +197,7 @@
                     "Height": 0.0,
                     "ScaleMin": 10.0,
                     "ScaleMax": 20.0,
-                    "EntityTemplateSource": "SharedData/SCAssets/SolarSystem/GroundScatter/Rock10.json"
+                    "EntityTemplateSource": "SharedData/SCAssets/SolarSystem/GroundScatter/Rock10.enconf"
                 }
             }
         ],
@@ -451,7 +451,7 @@
                     "Systems": []
                 },
                 "#FromTemplate": {
-                    "Source_Path": "SharedData/SCAssets/Basic/ScaledHoloMarker.json",
+                    "Source_Path": "SharedData/SCAssets/Basic/ScaledHoloMarker.enconf",
                     "ParamOverrides": {
                         "Dynamics": {
                             "ResidentFrame": [
@@ -537,7 +537,7 @@
                     "Systems": []
                 },
                 "#FromTemplate": {
-                    "Source_Path": "SharedData/SCAssets/Basic/ScaledHoloMarker.json",
+                    "Source_Path": "SharedData/SCAssets/Basic/ScaledHoloMarker.enconf",
                     "ParamOverrides": {
                         "Dynamics": {
                             "ResidentFrame": [
@@ -752,7 +752,7 @@
                     "Systems": []
                 },
                 "#FromTemplate": {
-                    "Source_Path": "SharedData/SCAssets/Basic/ScaledHoloMarker.json",
+                    "Source_Path": "SharedData/SCAssets/Basic/ScaledHoloMarker.enconf",
                     "ParamOverrides": {
                         "Dynamics": {
                             "ResidentFrame": [
@@ -774,7 +774,7 @@
                     "Systems": []
                 },
                 "#FromTemplate": {
-                    "Source_Path": "SharedData/SCAssets/Basic/ScaledHoloMarker.json",
+                    "Source_Path": "SharedData/SCAssets/Basic/ScaledHoloMarker.enconf",
                     "ParamOverrides": {
                         "Dynamics": {
                             "ResidentFrame": [
@@ -796,7 +796,7 @@
                     "Systems": []
                 },
                 "#FromTemplate": {
-                    "Source_Path": "SharedData/SCAssets/Basic/ScaledHoloMarker.json",
+                    "Source_Path": "SharedData/SCAssets/Basic/ScaledHoloMarker.enconf",
                     "ParamOverrides": {
                         "Dynamics": {
                             "ResidentFrame": [
@@ -878,7 +878,7 @@
                     "Systems": []
                 },
                 "#FromTemplate": {
-                    "Source_Path": "SharedData/SCAssets/Basic/ScaledHoloMarker.json",
+                    "Source_Path": "SharedData/SCAssets/Basic/ScaledHoloMarker.enconf",
                     "ParamOverrides": {
                         "Dynamics": {
                             "ResidentFrame": [
@@ -954,7 +954,7 @@
                     ]
                 },
                 "#FromTemplate": {
-                    "Source_Path": "SharedData/SCAssets/SpaceVehicles/CrashedLunarLander/CrashedLunarLander.json",
+                    "Source_Path": "SharedData/SCAssets/SpaceVehicles/CrashedLunarLander/CrashedLunarLander.enconf",
                     "ParamOverrides": {
                         "Tags": [
                             "array",
