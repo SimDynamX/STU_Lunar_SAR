@@ -227,11 +227,11 @@
         "Location_LTV2": [ "doubleV3", -12773.0, -12558.0, -1739221.0 ],
         "Location_EVA1": [ "doubleV3", -12825.0, -12611.0, -1739203.0 ],
         "Location_EVA2": [ "doubleV3", -12827.0, -12613.0, -1739203.0 ],
-        "Location_STU_Competition2_ProcessingFacility": [ "doubleV3", -12788.87, -14457.72, -1738831.4 ],
-        "Location_STU_Competition2_ChargingStation": [ "doubleV3", -12911.0, -12507.0, -1739182.0 ],
-        "Location_STU_Competition2_Beacon1": [ "doubleV3", -13082.0, -12813.0, -1739119.0 ],
-        "Location_STU_Competition2_ShadedRidge": [ "doubleV3", -14122.0, -13036.0, -1738942.0 ],
-        "Location_STU_Competition2_EdgeOfShadow": [ "doubleV3", -13093.0, -13190.0, -1739061.0 ]
+        "Loc_STU2_ProcessingFacility": [ "doubleV3", -12788.87, -14457.72, -1738831.4 ],
+        "Loc_STU2_ChargingStation": [ "doubleV3", -12911.0, -12507.0, -1739182.0 ],
+        "Loc_STU2_Beacon1": [ "doubleV3", -13082.0, -12813.0, -1739119.0 ],
+        "Loc_STU2_ShadedRidge": [ "doubleV3", -14122.0, -13036.0, -1738942.0 ],
+        "Loc_STU2_EdgeOfShadow": [ "doubleV3", -13093.0, -13190.0, -1739061.0 ]
       }
     },
     "entities": [
